@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>search-plus</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>You can filter and search incident by encoded query</short_description>
+        <size>md</size>
+        <sp_column display_value="2">aca1db9693a002109ca2b5edfaba10bb</sp_column>
+        <sp_page display_value="encoded_incidents">490a174b93ac02109ca2b5edfaba1084</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 00:40:20</sys_created_on>
+        <sys_id>c39bdb0f93ac02109ca2b5edfaba102e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Search Incidents</sys_name>
+        <sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope>
+        <sys_update_name>sp_instance_link_c39bdb0f93ac02109ca2b5edfaba102e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 00:42:03</sys_updated_on>
+        <title>Search Incidents</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=c39bdb0f93ac02109ca2b5edfaba102e"/>
+</record_update>

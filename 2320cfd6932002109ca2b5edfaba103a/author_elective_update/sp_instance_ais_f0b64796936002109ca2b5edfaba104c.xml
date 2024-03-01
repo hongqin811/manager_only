@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6ba64796936002109ca2b5edfaba105b</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 15:13:32</sys_created_on>
+        <sys_id>f0b64796936002109ca2b5edfaba104c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope>
+        <sys_update_name>sp_instance_ais_f0b64796936002109ca2b5edfaba104c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 15:13:32</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=f0b64796936002109ca2b5edfaba104c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</application>
+        <file_path/>
+        <instance_id>c4da69f8dbdef59802022a5913961951</instance_id>
+        <instance_name>dev200356</instance_name>
+        <name>sp_instance_ais_f0b64796936002109ca2b5edfaba104c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">6ba64796936002109ca2b5edfaba105b</sp_column><sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-26 15:13:32</sys_created_on><sys_id>f0b64796936002109ca2b5edfaba104c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package><sys_policy/><sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope><sys_update_name>sp_instance_ais_f0b64796936002109ca2b5edfaba104c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-26 15:13:32</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=f0b64796936002109ca2b5edfaba104c"/></record_update>]]></payload>
+        <payload_hash>-1432977390</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6b20cfd6932002109ca2b5edfaba103b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 15:13:33</sys_created_on>
+        <sys_id>b0b64796936002109ca2b5edfaba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de5fa755a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 15:13:33</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>b4b64796fd600210a39e6fc7d337a24e</update_guid>
+        <update_guid_history>b4b64796fd600210a39e6fc7d337a24e:-1432977390</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">445ecf1693a002109ca2b5edfaba1085</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 15:46:48</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>a165ff6fdf8d4916affe86576a378844</sys_id>
+        <sys_metadata>f0b64796936002109ca2b5edfaba104c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope>
+        <sys_scope_delete display_value="">95d4c1071af64a3ea6d9c0f5c1a33371</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_f0b64796936002109ca2b5edfaba104c</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_f0b64796936002109ca2b5edfaba104c">b0b64796936002109ca2b5edfaba104f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 15:46:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

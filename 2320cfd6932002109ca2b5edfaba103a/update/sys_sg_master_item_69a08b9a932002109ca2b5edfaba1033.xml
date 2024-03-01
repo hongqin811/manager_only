@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>incident</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Incident Form Screen">d5a08b9a932002109ca2b5edfaba1030</embedded_screen>
+        <item_view/>
+        <name>Incident master_item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-26 14:47:06</sys_created_on>
+        <sys_id>69a08b9a932002109ca2b5edfaba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident master_item</sys_name>
+        <sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope>
+        <sys_update_name>sys_sg_master_item_69a08b9a932002109ca2b5edfaba1033</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-26 14:47:06</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Incident List Screen View Config">1da007d6932002109ca2b5edfaba10f8</view_config>
+    </sys_sg_master_item>
+</record_update>

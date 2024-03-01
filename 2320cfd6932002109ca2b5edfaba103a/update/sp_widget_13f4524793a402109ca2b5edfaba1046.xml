@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope,$scope) {
+  /* widget controller */
+  var c = this;
+  c.selectItem = function(idx) {
+    var id = c.data.notes[idx].sys_id;
+    console.log('Note ID: ' + id);
+    $rootScope.noteID = id;
+    $rootScope.$emit('selectNote', id);
+  }
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>user_list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>User List</name>
+        <option_schema>[{"hint":"Select Max number of record to display","name":"maximum_records_to_display","section":"other","default_value":"5","label":"Maximum records to display","type":"choice","choices":[{"label":"2","value":"2"},{"label":"3","value":"3"},{"label":"5","value":"5"},{"label":"7","value":"7"},{"label":"11","value":"11"},{"label":"13","value":"13"},{"label":"17","value":"17"}]},{"name":"title","section":"other","default_value":"Note 1","label":"Title","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	//create an array to populate with notes
+	data.notes = [];
+	var noteGR = new GlideRecord('sys_user');
+	noteGR.orderBy('user_name');
+	noteGR.setLimit(options.maximum_records_to_display);
+	noteGR.query();
+	while (noteGR.next()) {
+		var noteObj = {};
+		//use service portal helper method to get some display values
+		$sp.getRecordDisplayValues(noteObj, noteGR, 'first_name, last_name,sys_id');
+
+		//push the populated obj into the array
+		data.notes.push(noteObj);
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 19:31:47</sys_created_on>
+        <sys_id>13f4524793a402109ca2b5edfaba1046</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>User List</sys_name>
+        <sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope>
+        <sys_update_name>sp_widget_13f4524793a402109ca2b5edfaba1046</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 19:56:54</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading clearfix">
+    <h3 class="panel-title pull-left">
+      User
+    </h3>
+  </div>
+  <div class="list-group">
+    <a class="list-group-item" ng-click="c.selectItem($index)" ng-repeat="note in data.notes">
+      <h4 class="list-group-item-heading">
+        {{note.first_name}} 
+      </h4>
+      <p class="list-group-item-text">
+        {{note.last_name}}
+      </p>
+    </a>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

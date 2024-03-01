@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Encoded Incidents - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="encoded_incidents">490a174b93ac02109ca2b5edfaba1084</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 00:57:11</sys_created_on>
+        <sys_id>fd7f5bc393ec02109ca2b5edfaba106d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encoded Incidents - Container 1</sys_name>
+        <sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope>
+        <sys_update_name>sp_container_fd7f5bc393ec02109ca2b5edfaba106d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 00:57:11</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</application>
+        <file_path/>
+        <instance_id>c4da69f8dbdef59802022a5913961951</instance_id>
+        <instance_name>dev200356</instance_name>
+        <name>sp_container_fd7f5bc393ec02109ca2b5edfaba106d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Encoded Incidents - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="encoded_incidents">490a174b93ac02109ca2b5edfaba1084</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-29 00:57:11</sys_created_on><sys_id>fd7f5bc393ec02109ca2b5edfaba106d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Encoded Incidents - Container 1</sys_name><sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package><sys_policy/><sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope><sys_update_name>sp_container_fd7f5bc393ec02109ca2b5edfaba106d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-29 00:57:11</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1799148052</payload_hash>
+        <record_name>Encoded Incidents - Container 1</record_name>
+        <reverted_from/>
+        <source>6b20cfd6932002109ca2b5edfaba103b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 00:57:11</sys_created_on>
+        <sys_id>7d7f5bc393ec02109ca2b5edfaba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18df25d82e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 00:57:11</sys_updated_on>
+        <type>Container</type>
+        <update_guid>717f5bc330ec02108dca5fefcf2f206f</update_guid>
+        <update_guid_history>717f5bc330ec02108dca5fefcf2f206f:-1799148052</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Encoded Incidents - Container 1">c9102f4793ec02109ca2b5edfaba10b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-29 00:59:52</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>2c825addbc9843e38c3945f577e29ef9</sys_id>
+        <sys_metadata>fd7f5bc393ec02109ca2b5edfaba106d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encoded Incidents - Container 1</sys_name>
+        <sys_package display_value="Manager Only" source="x_1305244_m_only">2320cfd6932002109ca2b5edfaba103a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Manager Only">2320cfd6932002109ca2b5edfaba103a</sys_scope>
+        <sys_scope_delete display_value="">95d4c1071af64a3ea6d9c0f5c1a33371</sys_scope_delete>
+        <sys_update_name>sp_container_fd7f5bc393ec02109ca2b5edfaba106d</sys_update_name>
+        <sys_update_version display_value="sp_container_fd7f5bc393ec02109ca2b5edfaba106d">7d7f5bc393ec02109ca2b5edfaba106f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-29 00:59:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
